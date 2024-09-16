@@ -22,6 +22,8 @@ namespace Bulky.DataAccess.Repository.IRepository
 
         IOrderDetRepository OrderDetail { get; }
 
+        IProductImageRepository ProductImage { get; }
+
         void Save();
     }
 }
